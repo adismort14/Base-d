@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/openInApp-assg/static/css/main.ea669670.css",
-    "main.js": "/openInApp-assg/static/js/main.cebfd5b9.js",
+    "main.css": "/openInApp-assg/static/css/main.64ea1160.css",
+    "main.js": "/openInApp-assg/static/js/main.6e0dd8eb.js",
     "static/js/787.00d2db12.chunk.js": "/openInApp-assg/static/js/787.00d2db12.chunk.js",
     "static/media/ExcelLogo.svg": "/openInApp-assg/static/media/ExcelLogo.d6013ef8308786fb2ce947c9f7370a1f.svg",
     "index.html": "/openInApp-assg/index.html",
-    "main.ea669670.css.map": "/openInApp-assg/static/css/main.ea669670.css.map",
-    "main.cebfd5b9.js.map": "/openInApp-assg/static/js/main.cebfd5b9.js.map",
+    "main.64ea1160.css.map": "/openInApp-assg/static/css/main.64ea1160.css.map",
+    "main.6e0dd8eb.js.map": "/openInApp-assg/static/js/main.6e0dd8eb.js.map",
     "787.00d2db12.chunk.js.map": "/openInApp-assg/static/js/787.00d2db12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea669670.css",
-    "static/js/main.cebfd5b9.js"
+    "static/css/main.64ea1160.css",
+    "static/js/main.6e0dd8eb.js"
   ]
 }
