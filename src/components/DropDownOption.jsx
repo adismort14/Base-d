@@ -1,15 +1,19 @@
 import React from "react";
 
-const DropDownOption = (props) => {
+const DropDownOption = ({option, onSelect}) => {
+
+  const handleSelect = () => {
+    onSelect(option);
+  };
   return (
-    <div className="z-[2]">
-      <a
-        href="#"
-        className="block px-2 py-2 text-sm text-gray-700 hover:bg-gray-100"
+    <div className="w-[134px] text-sm font-['Figtree] text-gray-700 hover:bg-gray-100 rounded-md p-2">
+      <button
+        onClick={handleSelect}
+        className=""
         role="menuitem"
       >
-        {props.option}
-      </a>
+        {option}
+      </button>
     </div>
   );
 };
