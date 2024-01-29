@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Sign = () => {
   return (
@@ -216,9 +217,13 @@ const Sign = () => {
           <div className="relative mt-[21.96px] font-lato text-[#346BD4] ml-[1px]">
             Forgot Password?
           </div>
-          <button className="relative w-[356.77px] h-[43.91px] bg-[#605BFF] rounded-[10px] mt-[21.96px]">
-            <div className="font-montserrat text-white font-bold">Sign In</div>
-          </button>
+          <Link to="/upload">
+            <button className="relative w-[356.77px] h-[43.91px] bg-[#605BFF] rounded-[10px] mt-[21.96px]">
+              <div className="font-montserrat text-white font-bold">
+                Sign In
+              </div>
+            </button>
+          </Link>
         </div>
         <div className="absolute top-[768px] right-[272.24px] font-lato">
           <span className="text-[#858585]">Don’t have an account?</span>
