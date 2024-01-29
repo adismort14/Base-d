@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const UploadingComp = () => {
   return (
     <div className="w-[596px] h-[367px] relative bg-white rounded-lg">
-      <div className="left-[235px] top-[100px] absolute flex-col justify-start items-center gap-4 inline-flex">
+      <div className="left-[233px] top-[100px] absolute flex-col justify-start items-center gap-4 inline-flex">
         <ExcelLogo />
         <div className="text-center text-neutral-400 text-base font-normal font-['Figtree'] leading-normal">
           upload-template.xlsx

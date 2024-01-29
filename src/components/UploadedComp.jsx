@@ -2,10 +2,10 @@ import React from "react";
 import {ReactComponent as ExcelLogo} from "../assets/images/ExcelLogo.svg"
 
 
-const UploadComp = () => {
+const UploadedComp = () => {
   return (
     <div className="w-[596px] h-[367px] relative bg-white rounded-lg">
-      <div className="left-[165px] top-[80px] absolute flex-col justify-start items-center gap-4 inline-flex">
+      <div className="left-[175px] top-[48px] absolute flex-col justify-start items-center gap-4 inline-flex">
         <div className="w-9 h-9 pl-[3.50px] pr-[2.59px] py-1 justify-center items-center inline-flex">
           <div className="w-[29.91px] h-7 relative flex-col justify-start items-start flex" />
         </div>
@@ -14,7 +14,7 @@ const UploadComp = () => {
           <span className="text-neutral-400 text-base font-normal font-['Figtree'] leading-normal">
             Drop your excel sheet here or{" "}
           </span>
-          <span className="text-indigo-500 text-base font-normal font-['Figtree'] leading-normal">
+          <span className="text-indigo-500 text-base font-normal font-['Figtree'] leading-normal hover:cursor-pointer">
             browse
           </span>
         </div>
@@ -46,4 +46,4 @@ const UploadComp = () => {
   );
 };
 
-export default UploadComp;
+export default UploadedComp;

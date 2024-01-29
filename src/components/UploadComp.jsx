@@ -5,20 +5,20 @@ import { Link } from "react-router-dom";
 const UploadComp = () => {
   return (
     <div className="w-[596px] h-[367px] relative bg-white rounded-lg">
-      <div className="left-[177px] top-[99px] absolute flex-col justify-start items-center gap-4 inline-flex">
+      <div className="left-[175px] top-[100px] absolute flex-col justify-start items-center gap-4 inline-flex">
         <ExcelLogo />
         <div className="text-center relative top-3">
           <span className="text-neutral-400 text-base font-normal font-['Figtree'] leading-normal">
             Drop your excel sheet here or{" "}
           </span>
-          <span className="text-indigo-500 text-base font-normal font-['Figtree'] leading-normal">
+          <span className="text-indigo-500 text-base font-normal font-['Figtree'] leading-normal" >
             browse
           </span>
         </div>
       </div>
       <div className="w-[564px] h-[258px] left-[16px] top-[16px] absolute rounded-lg border border-black border-opacity-10" />
       <Link to="/upload/uploading">
-        <div className="w-[564px] h-14 pl-2 pr-4 py-4 left-[16px] top-[295px] absolute bg-indigo-500 rounded-lg  flex justify-center items-center gap-2 flex-shrink-0 ">
+        <div className="w-[564px] h-14 pl-2 pr-2 py-4 left-[16px] top-[295px] absolute bg-indigo-500 rounded-lg  flex justify-center items-center gap-2 flex-shrink-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
