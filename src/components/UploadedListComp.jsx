@@ -5,7 +5,7 @@ import { sampleData } from "../assets/sampleData";
 const UploadedListComp = () => {
   return (
     <>
-      <div className="w-[1065px] h-[419px] relative bg-neutral-100 rounded-lg ">
+      <div className="w-[1065px] h-full relative bg-neutral-100 rounded-lg ">
         <div className="flex justify-start">
           <div className="text-black text-sm font-semibold font-['Figtree'] leading-normal mr-[72px] mt-[14px] ml-[31px] ">
             Sl No.
