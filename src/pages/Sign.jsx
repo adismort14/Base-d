@@ -195,7 +195,7 @@ const Sign = () => {
             className="flex-1 relative ml-2 text-[0.75rem] font-montserrat text-center z-[2]"
             style={{ color: "var(--Secondary-Text, #858585)" }}
           >
-            Sign in with Google
+            Sign in with Apple
           </div>
         </button>
         <div className="absolute top-[398.88px] right-[204.18px] shrink-0 bg-white w-[422.635px] h-[347.988px] rounded-[20px] p-[32.93px]">
