@@ -219,7 +219,7 @@ const Sign = () => {
           </div>
           <Link to="/upload">
             <button className="relative w-[356.77px] h-[43.91px] bg-[#605BFF] rounded-[10px] mt-[21.96px]">
-              <div className="font-montserrat text-white font-bold">
+              <div className="font-['Montserrat'] text-white font-bold">
                 Sign In
               </div>
             </button>
